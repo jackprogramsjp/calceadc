@@ -21,3 +21,6 @@ fi
 
 # Remove/Uninstall
 rm -rf /usr/local/bin/calceadc
+
+# message
+echo Successfully uninstalled.
