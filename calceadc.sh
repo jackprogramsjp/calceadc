@@ -10,7 +10,8 @@ fi
 # Check if `llvm` exists in their system
 if ! [ -x "$(command -v llc)" ]
 then
-    abort "LLVM must be installed. If you have homebrew, just run this: brew install llvm"
+    echo "LLVM must be installed. If you have homebrew, just run this: brew install llvm"
+    exit 1
 fi
 
 while test $# -gt 0; do
